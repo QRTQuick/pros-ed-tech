@@ -1,0 +1,11 @@
+# Allow all robots
+User-agent: *
+Allow: /
+
+# Disallow private files
+Disallow: /node_modules/
+Disallow: /models/
+Disallow: /mrprosperity.db
+
+# Sitemap location for Google
+Sitemap: https://qrtquick.github.io/pros-ed-tech/sitemap.xml
