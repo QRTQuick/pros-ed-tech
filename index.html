@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Pro's-ED Tech — Tutorials for Math, Further Maths, Physics, and Chemistry with Mr. Prosperity.">
+<meta name="keywords" content="Math Tutorials, Further Maths Tutorials, Physics Lessons, Chemistry Lessons, Online Education, Pro's-ED Tech">
+<meta name="author" content="QuickRedTech">
+<meta name="robots" content="index, follow">
+<meta name="language" content="English">
+<meta name="theme-color" content="#ff3b3f">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:title" content="Pro's-ED Tech — Learn Math, Physics, Chemistry">
+<meta property="og:description" content="Interactive tutorials for Math, Further Maths, Physics, and Chemistry by Mr. Prosperity.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://yourwebsite.com/">
+<meta property="og:image" content="https://yourwebsite.com/og-image.png">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Pro's-ED Tech — Learn Math, Physics, Chemistry">
+<meta name="twitter:description" content="Interactive tutorials for Math, Further Maths, Physics, and Chemistry by Mr. Prosperity.">
+<meta name="twitter:image" content="https://yourwebsite.com/twitter-image.png">
+
+<title>Pro's-ED Tech</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Hero Section -->
+<section id="hero">
+    <h1>Welcome to Pro's-ED Tech</h1>
+    <p>Master Math, Further Maths, Physics, and Chemistry with <strong>Mr. Prosperity</strong></p>
+    <button id="heroSignupBtn">Sign Up</button>
+    <button id="heroLoginBtn">Login</button>
+</section>
+
+<!-- Navbar -->
+<nav>
+    <div class="logo">Pro's-ED Tech</div>
+    <div class="hamburger" id="hamburger">
+        <div></div><div></div><div></div>
+    </div>
+    <ul id="nav-links">
+        <li><a href="#math">Math</a></li>
+        <li><a href="#furthermath">Further Maths</a></li>
+        <li><a href="#physics">Physics</a></li>
+        <li><a href="#chemistry">Chemistry</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#" id="loginBtn">Login</a></li>
+        <li><a href="#" id="signupBtn">Sign Up</a></li>
+    </ul>
+</nav>
+
+<!-- Sections -->
+<section id="math">
+    <h2>Mathematics Tutorials</h2>
+    <div class="content">
+        <div class="card">
+            <h3>Algebra</h3>
+            <p>Interactive lessons on equations, inequalities, and algebraic expressions.</p>
+            
+        </div>
+        <div class="card">
+            <h3>Geometry</h3>
+            <p>Understand shapes, theorems, and problem-solving strategies.</p>
+            
+        </div>
+        <div class="card">
+            <h3>Calculus</h3>
+            <p>Master limits, derivatives, integrals, and applications with real examples.</p>
+            
+        </div>
+    </div>
+</section>
+
+<section id="furthermath">
+    <h2>Further Mathematics Tutorials</h2>
+    <div class="content">
+        <div class="card">
+            <h3>Complex Numbers</h3>
+            <p>Explore imaginary numbers, operations, and applications in problem-solving.</p>
+           
+        </div>
+        <div class="card">
+            <h3>Matrices & Vectors</h3>
+            <p>Linear algebra concepts for advanced mathematics explained clearly.</p>
+            
+        </div>
+        <div class="card">
+            <h3>Differential Equations</h3>
+            <p>Step-by-step solving of ordinary differential equations.</p>
+            
+        </div>
+    </div>
+</section>
+
+<section id="physics">
+    <h2>Physics Tutorials</h2>
+    <div class="content">
+        <div class="card">
+            <h3>Mechanics</h3>
+            <p>Learn motion, forces, energy, and momentum with examples.</p>
+            
+        </div>
+        <div class="card">
+            <h3>Electromagnetism</h3>
+            <p>Electricity, magnetism, and circuit analysis simplified.</p>
+            
+        </div>
+        <div class="card">
+            <h3>Thermodynamics</h3>
+            <p>Understand heat, work, energy, and the laws of thermodynamics.</p>
+            
+        </div>
+    </div>
+</section>
+
+<section id="chemistry">
+    <h2>Chemistry Tutorials</h2>
+    <div class="content">
+        <div class="card">
+            <h3>Organic Chemistry</h3>
+            <p>Learn about carbon compounds, reactions, and mechanisms.</p>
+            
+        </div>
+        <div class="card">
+            <h3>Inorganic Chemistry</h3>
+            <p>Explore elements, compounds, and periodic trends.</p>
+            
+        </div>
+        <div class="card">
+            <h3>Physical Chemistry</h3>
+            <p>Chemical kinetics, equilibrium, and thermodynamics explained.</p>
+            ">
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Mr. Prosperity</h2>
+    <div class="tutors-gallery">
+        <img src="tutor1.png" alt="Mr. Prosperity teaching" class="tutor-img">
+            </div>
+    <p>Hello! I'm <strong>Mr. Prosperity</strong>, a passionate educator dedicated to helping students excel in Math, Further Maths, Physics, and Chemistry.</p>
+    <p>Contact me: <br>
+       Phone/WhatsApp: <a href="https://wa.me/2347036542142">+2347036542142</a> <br>
+       Email: <a href="mailto:kingprosperity92@gmail.com">kingprosperity92@gmail.com</a>
+    </p>
+</section>
+
+<!-- Modals -->
+<div id="loginModal" class="modal">
+  <div class="modal-content">
+    <span class="close" id="loginClose">&times;</span>
+    <h3>Login</h3>
+    <input type="email" placeholder="Email" id="loginEmail">
+    <input type="password" placeholder="Password" id="loginPassword">
+    <div class="message" id="loginMessage"></div>
+    <button id="loginSubmit">Login</button>
+  </div>
+</div>
+
+<div id="signupModal" class="modal">
+  <div class="modal-content">
+    <span class="close" id="signupClose">&times;</span>
+    <h3>Sign Up</h3>
+    <input type="text" placeholder="Full Name" id="signupName">
+    <input type="email" placeholder="Email" id="signupEmail">
+    <input type="password" placeholder="Password" id="signupPassword">
+    
+    <div class="checkbox">
+        <input type="checkbox" id="termsCheck"> I agree to the 
+        <span id="termsToggle" style="color:#007BFF; cursor:pointer;">Terms & Conditions</span>
+    </div>
+    <div id="termsContent" style="display:none; margin-top:10px; padding:10px; border:1px solid #ccc; max-height:200px; overflow-y:auto;">
+        <h4>Terms & Conditions</h4>
+        <p>Welcome to Pro's-ED Tech. By signing up, you agree to:</p>
+        <ul>
+            <li>Use our tutorials responsibly.</li>
+            <li>Not share your account details with others.</li>
+            <li>Respect intellectual property and copyright laws.</li>
+            <li>Maintain a positive and constructive learning environment.</li>
+            <li>Accept that your progress and data are stored locally for demonstration purposes.</li>
+        </ul>
+        <p>For full terms, contact <a href="mailto:kingprosperity92@gmail.com">kingprosperity92@gmail.com</a>.</p>
+    </div>
+
+    <div class="message" id="signupMessage"></div>
+    <button id="signupSubmit">Sign Up</button>
+  </div>
+</div>
+
+<script>
+  // Toggle Terms & Conditions dropdown
+  const termsToggle = document.getElementById('termsToggle');
+  const termsContent = document.getElementById('termsContent');
+  termsToggle.addEventListener('click', () => {
+    termsContent.style.display = termsContent.style.display === 'none' ? 'block' : 'none';
+  });
+</script>
+
+<div id="dashboardModal" class="modal" style="display:none;">
+  <div class="modal-content">
+    <span class="close" id="dashboardClose">&times;</span>
+    <h3>User Dashboard</h3>
+    <div class="user-info">
+        <p id="dashName">Name: </p>
+        <p id="dashEmail">Email: </p>
+    </div>
+    <div class="dashboard-cards">
+        <div class="card" id="progressCard">Progress: 0%</div>
+        <div class="card" id="completedCard">Completed Lessons: 0</div>
+        <div class="card" id="nextLessonCard">Next Lesson: -</div>
+    </div>
+    <div class="notifications" id="userNotifications">
+        <!-- Future notifications will appear here -->
+    </div>
+  </div>
+</div>
+
+<footer>
+    &copy; 2025 Pro's-ED Tech. All rights reserved.
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
